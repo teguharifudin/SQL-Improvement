@@ -3,12 +3,10 @@ SET sql_mode = 'STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVIS
 SET NAMES utf8mb4;
 
 -- Create database if not exists
-CREATE DATABASE IF NOT EXISTS jobs_db
+CREATE DATABASE IF NOT EXISTS test_db
 CHARACTER SET utf8mb4
 COLLATE utf8mb4_unicode_ci;
 
--- Create database
-CREATE DATABASE IF NOT EXISTS test_db;
 USE test_db;
 
 -- Create table
